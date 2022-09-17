@@ -1,0 +1,58 @@
+html {
+    background-color: #6884b3;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    left: 32%;
+}
+
+@media(max-width: 600px) {
+    #resultados {
+        position: fixed;
+        top: 40%;
+        left: 35.5%;
+        width: 25%;
+    }
+
+    #pontuacao {
+        position: fixed;
+        top: 50%;
+        left: 35.5%;
+        width: 25%;
+    }
+    
+}
+
+#botoes {
+    position: fixed;
+    top: 28%;
+    left: 37%;
+}
+
+#PEDRA {
+    size: 10px;
+}
+
+#PAPEL {
+    size: 10px;
+}
+
+#TESOURA {
+    size: 10px;
+}
+
+#resultados {
+    position: fixed;
+    top: 40%;
+    left: 35.5%;
+    width: 25%;
+}
+
+#pontuacao {
+    position: fixed;
+    top: 43%;
+    left: 35.5%;
+    width: 25%;
+}
